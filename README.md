@@ -62,3 +62,4 @@ def generate_all_html(text):
         concept = get_concept_by_number(text, current_concept_number)
     return all_html
 
+print generate_all_html(EXAMPLE_TEXT)
